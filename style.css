@@ -1,0 +1,46 @@
+
+/* This is my style code with media query and gridview */
+
+.table {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+    grid-gap: 5px;
+  }
+  /* this is my MEDIA QUERY code*/
+  @media screen and (max-width:768px) {
+    .table { grid-template-columns: auto auto; }
+  }
+
+  .table .head, .table .cell {
+    padding: 10px;
+  }
+
+  .table .head {
+    font-weight: bold;
+    background: #ffe4d1;
+  }
+  .table .cell {
+    background: #d1f2ff;
+  }
+
+  body {
+    background-color: #dabaab;
+}
+
+ h2 {
+    text-align: center;
+    color: #FFFF;
+    text-decoration: underline;
+    text-shadow: 2px 2px #54717c;
+
+ }
+
+ header {
+    color: #89cae4;
+    background-color: #ffffff;
+    font-size: 190%;
+    text-align: center;
+    padding: 1%;
+    
+ }
